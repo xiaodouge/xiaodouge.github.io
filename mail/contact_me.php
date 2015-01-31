@@ -21,11 +21,11 @@ $message = $_POST['message'];
 
 
 // Create the email and send the message
-$to = 'xiaodouge@users.noreply.github.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
+$to = '1025195312@qq.com'; // Add your email address inbetween the '' replacing yourname@yourdomain.com - This is where the form will send a message to.
 $email_subject = "Website Contact Form:  $name";
 $email_body = "You have received a new message from your website contact form.\n\n"."Here are the details:\n\nName: $name\n\nEmail: $email_address\n\nPhone: $phone\n\nMessage:\n$message";
 $headers = "From: xiaodouge@users.noreply.github.com\n"; // This is the email address the generated message will be from. We recommend using something like noreply@yourdomain.com.
 $headers .= "Reply-To: $email_address";
-mail($to,$email_subject,$email_body,$headers);
+mail($to,"subject","body",'18752011616@163.com');
 return true;
 ?>
